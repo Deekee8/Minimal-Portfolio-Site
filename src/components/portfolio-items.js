@@ -19,31 +19,22 @@ const portfolioItems = [
     },
     {
         title: 'Connect 4',
-        sinopsis: 'It also includes a Blog section, with the createPages Api',
-        desc: 'Write posts directly in markdown. Thanks to plugins, and the createPage Api, gatbsy generates blog posts automatically',
-        img: './portfolio/ejs-blog.png',
-        repo: 'https://github.com/martin2844/ejs-blog',
-        live: 'https://my-ejs-blog.herokuapp.com/',
+        sinopsis: 'Two Player connect 4 game written in JavaScript',
+        desc: 'First player to get 4 in a row wins!',
+        img: './portfolio/Connect-4-Screencap.png',
+        repo: 'https://github.com/Deekee8/Connect-4',
+        live: 'https://deekee8.github.io/Connect-4/',
         idx: 3
     },
     {
-        title: 'Portfolio Item 4',
-        sinopsis: 'Its very minimalist, but that was the end goal',
-        desc: 'This was inspired in Dinesh Pandiyan personal page',
-        img: './portfolio/EJS.png',
-        repo: 'https://github.com/martin2844',
-        live: 'https://my-ejs-todo-list.herokuapp.com',
+        title: 'Maze',
+        sinopsis: 'Make your way through the maze',
+        desc: 'Use the arrow keys to make it to the end',
+        img: './portfolio/Maze.png',
+        repo: 'https://github.com/Deekee8/Maze',
+        live: 'https://deekee8.github.io/Maze/',
         idx: 4
     },
-    {
-        title: 'Portfolio Item 5',
-        sinopsis: 'Please message me at twitter @codigoMate',
-        desc: 'I really appriciate any messages',
-        img: './portfolio/Mate.png',
-        repo: 'https://github.com/martin2844',
-        live: 'https://codigomate.com',
-        idx: 5
-    }
 
 ]
 

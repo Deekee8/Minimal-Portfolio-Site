@@ -35,7 +35,7 @@ const About = (props) => {
                 <div className={aboutStyle.iconos}><i className="fas fa-map-marker-alt fa-sm"></i><p>Tampa, Florida</p></div>
             <div className={aboutStyle.iconos}><i className="fas fa-graduation-cap fa-sm"></i><p>Kenzie Academy | Remote </p></div>
             <div className={aboutStyle.iconos}><i className="fas fa-code fa-sm"></i><p>JavaScript/React | Python/Django</p></div>
-            <div className={aboutStyle.iconos}><i className="fas fa-language fa-sm"></i><p>English, Spanish</p></div>
+            <div className={aboutStyle.iconos}><i className="fas fa-language fa-sm"></i><p>Fluent English | Intermediate Spanish</p></div>
             
 
 
