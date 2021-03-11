@@ -24,24 +24,24 @@ const Header = () => {
                 <div className="header-main">
                         <div className="dev">
                         <h1>{data.site.siteMetadata.title}</h1>
-                        <span className="attr">Web designer</span>
+                        <span className="attr">Web Developer</span>
                         <span className="dot">•</span>
-                        <span className="attr">Architect</span>
+                        <span className="attr">Creative</span>
                         <span className="dot">•</span>
-                        <span className="attr">Mechanic</span>
+                        <span className="attr">Life-long Learner</span>
                         </div>
                         <div className="icons">
-                        <a href='https://github.com/martin2844'><i className="fab fa-github"></i></a>
-                        <a href='https://twitter.com/codigoMate'><i className="fab fa-twitter"></i></a>
-                        <a href='https://dev.to/martin2844'><i className="fab fa-dev"></i></a>
-                        <a href='https://www.linkedin.com/in/chammah/'><i className="fab fa-linkedin"></i></a>
-                        <a href='https://youtube.com/codigoMate'><i className="fab fa-youtube"></i></a>
+                        <a href='https://github.com/Deekee8'><i className="fab fa-github"></i></a>
+                        <a href='https://www.linkedin.com/in/dequan-mitchell-138b9990/'><i className="fab fa-linkedin"></i></a>
+                        <a href='https://twitter.com/devDeQuan'><i className="fab fa-twitter"></i></a>
+                        <a href='https://dev.to/deekee8'><i className="fab fa-dev"></i></a>
                         </div>
-                        <span className="pages-link"><Link to="/">Portfolio</Link>
-                        |
-                        <Link to="/blog">Blog</Link>
+                        <span className="pages-link">
+                        <Link to="/">Portfolio</Link>
                         |
                         <Link to="/about">About</Link>
+                        |
+                        <Link to="/blog">Blog</Link>
                         </span>
 
                         

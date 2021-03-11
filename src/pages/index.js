@@ -19,7 +19,7 @@ function renderFolio() {
             {desc}
             <span className="repolinks" key={'repo' + idx}><a key={'repoLink' + idx} href={repo}>Github Repo</a></span>
             
-            {live ? <span className="repolinks" key={'live' + idx}><a key={'liveLink' + idx} href={repo}>Check it live</a></span> : null }
+            {live ? <span className="repolinks" key={'live' + idx}><a key={'liveLink' + idx} href={live}>Check it live</a></span> : null }
 
 
             </div>
@@ -35,8 +35,8 @@ const Index = () => {
     
     return (
         <Layout>
-            <h1 className="opener">I am developer</h1>
-            <p className="subtitle">These are a few of my projects. Open up for repo and live version!</p>
+            <h1 className="opener">I am a junior developer</h1>
+            <p className="subtitle">These are a few of my projects that I built while studying at Kenzie Academy. Open up for repo and live version!</p>
             {renderFolio()}
         </Layout>
     )

@@ -1,23 +1,24 @@
 const portfolioItems = [
     {
-        title: 'Portfolio Item 1',
-        sinopsis: 'This is a pure CSS accordion. Click to open',
-        desc: 'You can put your description here. Include your github Repo. A link for a live version is optional. Include a screen cap. Or edit the format',
-        img: './portfolio/faduense.png',
-        repo: 'https://github.com/martin2844/faduense',
+        title: 'React Basic Sports Game',
+        sinopsis: 'Simple sports game made with HTML and React',
+        desc: 'Simple one button game that randomly scores and keeps track of score and shot percentage',
+        img: './portfolio/React-Sports-Game-Screencap.png',
+        live: 'https://deekee8.github.io/React-Basic-Sports-Game/',
+        repo: 'https://github.com/Deekee8/React-Basic-Sports-Game',
         idx: 1
     },
     {
-        title: 'Portfolio Item 2',
-        sinopsis: 'This is just a quick description. Open up for more details',
-        desc: 'This is just a javascript array of objects. Gatsby makes the JSX elements to show up',
-        img: './portfolio/bitcoin.png',
-        live: 'bitcoinhoy.com.ar',
-        repo: 'https://github.com/martin2844',
+        title: 'Tower of Hanoi',
+        sinopsis: 'Tower of Hanoi game made with JavaScript',
+        desc: 'Fun little brain teaser',
+        img: './portfolio/Tower-of-Hanoi-Screencap.png',
+        live: 'https://deekee8.github.io/Tower-of-Hanoi/',
+        repo: 'https://github.com/Deekee8/Tower-of-Hanoi',
         idx: 2
     },
     {
-        title: 'Portfolio Item 3',
+        title: 'Connect 4',
         sinopsis: 'It also includes a Blog section, with the createPages Api',
         desc: 'Write posts directly in markdown. Thanks to plugins, and the createPage Api, gatbsy generates blog posts automatically',
         img: './portfolio/ejs-blog.png',

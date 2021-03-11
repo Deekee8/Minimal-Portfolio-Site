@@ -6,7 +6,7 @@ import {graphql} from 'gatsby'
 
 export const query = graphql`
 query {
-    file(relativePath: { eq: "images/about.png" }) {
+    file(relativePath: { eq: "images/Pro Headshot.jpeg" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
@@ -23,7 +23,7 @@ const About = (props) => {
     console.log(query)
     return (
         <Layout>
-            <h2>Hello , my name is Developer</h2>
+            <h2>Hello , my name is DeQuan but most people call me DQ</h2>
 
             <div className={aboutStyle.main}>
             
@@ -32,10 +32,10 @@ const About = (props) => {
                 <div className={aboutStyle.imagen}> <Img className={aboutStyle.img} fluid={props.data.file.childImageSharp.fluid} /></div>
                 <div className={aboutStyle.texto}>
 
-                <div className={aboutStyle.iconos}><i className="fas fa-map-marker-alt fa-sm"></i><p>Location, Country</p></div>
-            <div className={aboutStyle.iconos}><i className="fas fa-graduation-cap fa-sm"></i><p>University of life</p></div>
-            <div className={aboutStyle.iconos}><i className="fas fa-code fa-sm"></i><p>HTML, JS, CSS, noSQL</p></div>
-            <div className={aboutStyle.iconos}><i className="fas fa-language fa-sm"></i><p>English, Spanish, Portuguese and Latin</p></div>
+                <div className={aboutStyle.iconos}><i className="fas fa-map-marker-alt fa-sm"></i><p>Tampa, Florida</p></div>
+            <div className={aboutStyle.iconos}><i className="fas fa-graduation-cap fa-sm"></i><p>Kenzie Academy | Remote </p></div>
+            <div className={aboutStyle.iconos}><i className="fas fa-code fa-sm"></i><p>JavaScript/React | Python/Django</p></div>
+            <div className={aboutStyle.iconos}><i className="fas fa-language fa-sm"></i><p>English, Spanish</p></div>
             
 
 
@@ -44,31 +44,33 @@ const About = (props) => {
             </div>
             <div className={aboutStyle.derecha}>
             <p>
-            Healthy float waves wrap gnarley Trestles oil water indy? Clamped blonde rigs capped out socked in, blown out fresh stick healthy float stall, waves Taj Burrow. Fan a spray foam ball clamped rip the pit shacked priority frothy top dry hair paddle out insider. Oil barreling, carve crumbly lip in the bricks white water sand bar fighting for the peak. Twin fin freshie reef urll make the paddle layback hammer blonde rigs slob priority. Drifting the tail rinsed salt water pit above the lip. Stab mag, double up nice little fish kook legend J.O.B. rock-n-roll socked in.
-            </p><p>
-Stomps it stale send it loc vertical backside hack out the back rookie drifting the tail crumbly lip. Oil barny nutty Jordy Smith clamped ripping the pit, best section combos wind swell best section. Chunky keyhole shutting down ripping bumps crumble sand bottom. Jamie O'Brien psyched pit critical Margaret River good-epic Pipe, good-epic flow. Firing shorebreak stuffs the rail claw hands rail dig speed tube barn dog a-frame claim. Firing wave so pitted wave green room green room foam climb tides insider. Rights cranking nice little amped barn dog bumps hack a thon don.
-</p><p>
-Fog Eddie would go layback daggers barreling backside board lefts. Pitted silky smooth John John Florence reef brah, pump. Rippin blow tail fins free reef ripping knee high full mad air reverse? Paddle out Simpo psyching tri fin, down the line, no kooks speed hack waves. Pump send it sand bottom section Jordy Smith insider no kooks, over the reef epic snake.
-</p>
+                I currently work as the Director of Market Operations for a family-owned bakery as well as a freelance actor, dancer, model on stage and screen. I have enjoyed a fulfilling life of creating art and telling stories through my love of self-expression and performing. I am now ready to nurture my love of technology and make the pivot to software engineering.
+            </p>
+            <p>
+                I am currently studying to be a front-end and full-stack developer. I will officially be a junior developer on April 23, 2021, and I am excited to connect with other students and potential colleagues and employers along my journey. I plan to use my knowledge of software development to create and implement innovative solutions for solving the worlds toughest problems such as generational poverty and climate change, as these are two of the most destructive forces that we face today. I have pledged my life to this. I will use my experience in entertainment and storytelling to build technology that will captivate and call to action the helpers of the world.
+            </p>
+            <p>
+                I truly believe that we are stronger together, and I intend to use my skills and resources to unite. Let's connect!
+            </p>
                
                 <div className={aboutStyle.logoContainer}>
                 <p>Some of the tech I like:</p>
+                <img alt="Python" className={aboutStyle.logo} src="./logos/python-logo.png" />
                 <img alt="javascript" className={aboutStyle.logo} src="./logos/javascript.svg" />
-                <img alt="Gatsby" className={aboutStyle.logo} src="./logos/gatsby.svg" />
-                <img alt="GraphQl" className={aboutStyle.logo} src="./logos/graphql.svg" />
+                <img alt="Django" className={aboutStyle.logo} src="./logos/django-square-2.png" />
                 <img alt="React" className={aboutStyle.logo} src="./logos/react.svg" />
+                <img alt="Bootstrap" className={aboutStyle.logo} src="./logos/bootstrap-social-logo.png" />
+                <img alt="Gatsby" className={aboutStyle.logo} src="./logos/gatsby.svg" />
                 <img alt="nodeJs" className={aboutStyle.logo} src="./logos/nodejs-icon.svg" />
                 <img alt="Mongo" className={aboutStyle.logo} src="./logos/mongodb.png" />
-                <img alt="Sass" className={aboutStyle.logo} src="./logos/sass-1.svg" />
                 </div>
 
            
                 <div className={aboutStyle.socialContainer}>
                 <p>Send me a message!</p>
-                <a className={aboutStyle.social} href="https://github.com/martin2844"><i className="fab fa-github"></i></a>
-            <a className={aboutStyle.social} href="https://www.instagram.com/codigo.mate/"><i className="fab fa-instagram"></i></a>
-            <a className={aboutStyle.social} href="https://www.youtube.com/channel/UC9nNIxlNohIoIrjtC4ueIOA"><i className="fab fa-youtube"></i></a>
-                <a className={aboutStyle.social} href="https://www.twitter.com/codigomate"><i class="fab fa-twitter"></i></a>
+                <a className={aboutStyle.social} href="https://github.com/Deekee8"><i className="fab fa-github"></i></a>
+                <a className={aboutStyle.social} href="https://twitter.com/devDeQuan"><i class="fab fa-twitter"></i></a>
+                <a className={aboutStyle.social} href="https://www.linkedin.com/in/dequan-mitchell-138b9990/"><i class="fab fa-linkedin"></i></a>
                 </div>
 
 
