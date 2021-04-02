@@ -35,7 +35,7 @@ const Index = () => {
     
     return (
         <Layout>
-            <h1 className="opener">I am a junior developer</h1>
+            <h1 className="opener">I am a Junior Developer</h1>
             <p className="subtitle">These are a few of my projects that I built while studying at Kenzie Academy. Open up for repo and live version!</p>
             {renderFolio()}
         </Layout>

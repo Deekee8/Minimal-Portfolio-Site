@@ -26,18 +26,20 @@ const Header = () => {
                         <h1>{data.site.siteMetadata.title}</h1>
                         <span className="attr">Web Developer</span>
                         <span className="dot">•</span>
-                        <span className="attr">Creative</span>
+                        <span className="attr">Creator</span>
                         <span className="dot">•</span>
                         <span className="attr">Life-long Learner</span>
                         </div>
                         <div className="icons">
-                        <a href='https://github.com/Deekee8'><i className="fab fa-github"></i></a>
-                        <a href='https://www.linkedin.com/in/dequan-mitchell-138b9990/'><i className="fab fa-linkedin"></i></a>
-                        <a href='https://twitter.com/devDeQuan'><i className="fab fa-twitter"></i></a>
-                        <a href='https://dev.to/deekee8'><i className="fab fa-dev"></i></a>
+                        <a href='https://github.com/Deekee8'><i aria-label="link to DeQuan's GitHub" className="fab fa-github"></i></a>
+                        <a href='https://www.linkedin.com/in/dequanmitchell/'><i aria-label="link to DeQuan's LinkedIn" className="fab fa-linkedin"></i></a>
+                        <a href='https://twitter.com/devDeQuan'><i aria-label="link to DeQuan's Twitter" className="fab fa-twitter"></i></a>
+                        <a href='https://dev.to/deekee8'><i aria-label="link to DeQuan's Dev.com page" className="fab fa-dev"></i></a>
                         </div>
                         <span className="pages-link">
                         <Link to="/">Portfolio</Link>
+                        |
+                        <Link to="https://www.kickresume.com/cv/QQwjm/">Resume</Link>
                         |
                         <Link to="/about">About</Link>
                         |

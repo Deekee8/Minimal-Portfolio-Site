@@ -6,7 +6,7 @@ import {graphql} from 'gatsby'
 
 export const query = graphql`
 query {
-    file(relativePath: { eq: "images/Pro Headshot.jpeg" }) {
+    file(relativePath: { eq: "images/04012021 Cropped Headshot.jpg" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
@@ -47,7 +47,10 @@ const About = (props) => {
                 I currently work as the Director of Market Operations for a family-owned bakery as well as a freelance actor, dancer, model on stage and screen. I have enjoyed a fulfilling life of creating art and telling stories through my love of self-expression and performing. I am now ready to nurture my love of technology and make the pivot to software engineering.
             </p>
             <p>
-                I am currently studying to be a front-end and full-stack developer. I will officially be a junior developer on April 23, 2021, and I am excited to connect with other students and potential colleagues and employers along my journey. I plan to use my knowledge of software development to create and implement innovative solutions for solving the worlds toughest problems such as generational poverty and climate change, as these are two of the most destructive forces that we face today. I have pledged my life to this. I will use my experience in entertainment and storytelling to build technology that will captivate and call to action the helpers of the world.
+                I am currently studying at Kenzie Academy in the Software Engineering Program. I will be graduating with a Full Stack Developer Certification on April 23, 2021 and I am eager and excited to begin using my skills and talents in the workforce as a valuable member of a team.
+            </p>
+            <p>
+            I enjoy working hands on with people to help meet their needs with innovative solutions. My backgrounds in hospitality and entertainment have given me lots of experience in curating custom experiences for clients and making sure that I deliver quality products and sevices. 
             </p>
             <p>
                 I truly believe that we are stronger together, and I intend to use my skills and resources to unite. Let's connect!
@@ -68,9 +71,9 @@ const About = (props) => {
            
                 <div className={aboutStyle.socialContainer}>
                 <p>Send me a message!</p>
-                <a className={aboutStyle.social} href="https://github.com/Deekee8"><i className="fab fa-github"></i></a>
-                <a className={aboutStyle.social} href="https://twitter.com/devDeQuan"><i class="fab fa-twitter"></i></a>
-                <a className={aboutStyle.social} href="https://www.linkedin.com/in/dequan-mitchell-138b9990/"><i class="fab fa-linkedin"></i></a>
+                <a className={aboutStyle.social} href="https://github.com/Deekee8"><i aria-label="link to DeQuan's GitHub" className="fab fa-github"></i></a>
+                <a className={aboutStyle.social} href="https://twitter.com/devDeQuan"><i aria-label="link to DeQuan's Twitter" class="fab fa-twitter"></i></a>
+                <a className={aboutStyle.social} href="https://www.linkedin.com/in/dequan-mitchell-138b9990/"><i aria-label="link to DeQuan's LinkedIn profile" class="fab fa-linkedin"></i></a>
                 </div>
 
 
