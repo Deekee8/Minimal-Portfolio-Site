@@ -39,7 +39,7 @@ const Header = () => {
                         <span className="pages-link">
                         <Link to="/">Portfolio</Link>
                         |
-                        <Link to="https://www.kickresume.com/cv/QQwjm/">Resume</Link>
+                        <a href="https://www.kickresume.com/cv/QQwjm/">Resume</a>
                         |
                         <Link to="/about">About</Link>
                         |
