@@ -1,7 +1,7 @@
 const portfolioItems = [
     {
         title: 'React Basic Sports Game',
-        sinopsis: 'Simple sports game made with HTML and React',
+        synopsis: 'Simple sports game made with HTML and React',
         desc: 'Simple one button game that randomly scores and keeps track of score and shot percentage',
         img: './portfolio/React-Sports-Game-Screencap.png',
         live: 'https://deekee8.github.io/React-Basic-Sports-Game/',
@@ -10,7 +10,7 @@ const portfolioItems = [
     },
     {
         title: 'Tower of Hanoi',
-        sinopsis: 'Tower of Hanoi game made with JavaScript',
+        synopsis: 'Tower of Hanoi game made with JavaScript',
         desc: 'Fun little brain teaser',
         img: './portfolio/Tower-of-Hanoi-Screencap.png',
         live: 'https://deekee8.github.io/Tower-of-Hanoi/',
@@ -19,7 +19,7 @@ const portfolioItems = [
     },
     {
         title: 'Connect 4',
-        sinopsis: 'Two Player connect 4 game written in JavaScript',
+        synopsis: 'Two Player connect 4 game written in JavaScript',
         desc: 'First player to get 4 in a row wins!',
         img: './portfolio/Connect-4-Screencap.png',
         repo: 'https://github.com/Deekee8/Connect-4',
@@ -28,7 +28,7 @@ const portfolioItems = [
     },
     {
         title: 'Maze',
-        sinopsis: 'Make your way through the maze',
+        synopsis: 'Make your way through the maze',
         desc: 'Use the arrow keys to make it to the end',
         img: './portfolio/Maze.png',
         repo: 'https://github.com/Deekee8/Maze',

@@ -50,7 +50,7 @@ const About = (props) => {
                 I am currently studying at Kenzie Academy in the Software Engineering Program. I will be graduating with a Full Stack Developer Certification on April 23, 2021 and I am eager and excited to begin using my skills and talents in the workforce as a valuable member of a team.
             </p>
             <p>
-            I enjoy working hands on with people to help meet their needs with innovative solutions. My backgrounds in hospitality and entertainment have given me lots of experience in curating custom experiences for clients and making sure that I deliver quality products and sevices. 
+            I enjoy working hands on with people to help meet their needs with innovative solutions. My backgrounds in hospitality and entertainment have given me lots of experience in curating custom experiences for clients and making sure that I deliver quality products and services. 
             </p>
             <p>
                 I truly believe that we are stronger together, and I intend to use my skills and resources to unite. Let's connect!

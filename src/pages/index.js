@@ -4,7 +4,7 @@ import './index.styles.scss';
 import portfolioItems from '../components/portfolio-items';
 
 function renderFolio() {
-  return  portfolioItems.map(({title, sinopsis, idx, desc, repo, live,img}) => {
+  return  portfolioItems.map(({title, synopsis, idx, desc, repo, live,img}) => {
         console.log(title);
         return (
            
@@ -13,7 +13,7 @@ function renderFolio() {
             <input key={'index' + idx}  type="checkbox" id={idx + title}/>
             <label key={'label' + idx}  className="tab-label" for={idx + title}>  <span key={'pTit' + idx} className='folio-title'>{title} </span>
             <span key={'dot' + idx} className='folio-title'>· </span>
-                    <span  key={'pSinop' + idx} className='folio-sinopsis'>{sinopsis}</span></label>
+                    <span  key={'pSinop' + idx} className='folio-sinopsis'>{synopsis}</span></label>
             <div key={'tab' + idx} class="tab-content">
             <img alt="nicasia" src={img}/>
             {desc}

@@ -12,7 +12,7 @@ const Blog = () => {
               frontmatter {
                 title
                 date
-                sinopsis
+                synopsis
               }
               fields {
                   slug
